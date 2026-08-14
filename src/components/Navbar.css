@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 15px 40px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  color: #61dafb;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  color: #61dafb;
+}

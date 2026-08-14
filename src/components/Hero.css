@@ -1,0 +1,127 @@
+.hero {
+  height: auto;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #eef2ff, #ffffff);
+  text-align: center;
+  scroll-margin-top: 80px;
+}
+
+.hero-content {
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin: auto;
+}
+.hero-text {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.hero h2 {
+  color: #2563eb;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+}
+
+.secondary-btn {
+  background: white;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.25);
+}
+.hero-image {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+.dark .hero h1,
+.dark .hero h2,
+.dark .hero p {
+  color: white;
+}
+.dark .hero {
+  background: linear-gradient(135deg, #111827, #1f2937);
+}
+.hero-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  border-radius: 50%;
+  padding: 20px;
+  background: #f5f5f5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+}
