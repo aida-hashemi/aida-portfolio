@@ -1,16 +1,64 @@
-# React + Vite
+# Aida Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+یک وب‌سایت Portfolio شخصی و Responsive که با استفاده از **React.js** و **Vite** طراحی و توسعه داده شده است.
 
-Currently, two official plugins are available:
+## ✨ درباره پروژه
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+این پروژه به‌عنوان بخشی از مسیر یادگیری و توسعه مهارت‌های من در حوزه **Front-End Development** ساخته شده است.
 
-## React Compiler
+هدف پروژه، تمرین و پیاده‌سازی مفاهیم اصلی React و ایجاد یک رابط کاربری مدرن، واکنش‌گرا و قابل استفاده در دستگاه‌های مختلف بوده است.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 تکنولوژی‌های استفاده‌شده
 
-## Expanding the Oxlint configuration
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Vite
+* React Icons
+* Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📌 امکانات
+
+* طراحی Responsive
+* ساختار Component-Based با React
+* Navigation Bar
+* Hero Section
+* معرفی مهارت‌ها
+* نمایش پروژه‌ها
+* بخش Contact
+* Dark Mode
+* Interactive Counter
+* استفاده از React Hooks
+* مدیریت State با `useState`
+
+## 🗂️ ساختار اصلی پروژه
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   ├── ProjectCard.jsx
+│   ├── Counter.jsx
+│   └── Contact.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🌐 نسخه آنلاین
+
+[مشاهده Portfolio](https://aida-portfolio-wheat.vercel.app/)
+
+## 🎯 هدف
+
+این پروژه بخشی از مسیر یادگیری من برای ورود حرفه‌ای به حوزه **Front-End Development** است و در ادامه با یادگیری بیشتر JavaScript، React و ابزارهای توسعه وب، امکانات و پروژه‌های بیشتری به آن اضافه خواهد شد.
+
+## 👩‍💻 درباره من
+
+من در حال توسعه مهارت‌های خود در زمینه Front-End Development هستم و به‌طور ویژه روی **React.js، JavaScript، HTML، CSS و Responsive Web Design** تمرکز دارم.
+
+به یادگیری تکنولوژی‌های جدید، حل مسئله و توسعه پروژه‌های واقعی علاقه‌مندم.
