@@ -41,16 +41,7 @@ function Counter() {
         {stats.map((item, index) => (
           <div className="counter-card" key={index}>
             <h2>{item.title === "Projects" ? `${count}+` : item.number}</h2>
-            <button
-              className="primary-btn"
-              onClick={() => {
-                if (count < 3) {
-                  setCount(count + 1);
-                }
-              }}
-            >
-              +
-            </button>
+
             <p>{item.title}</p>
           </div>
         ))}

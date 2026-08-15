@@ -47,3 +47,35 @@
 .dark .counter-card p {
   color: #ddd;
 }
+@media (max-width: 768px) {
+  .counter-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .counter-card {
+    padding: 25px 15px;
+  }
+
+  .counter-card h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 400px) {
+  .counter {
+    padding: 60px 10px;
+  }
+
+  .counter-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .counter-card {
+    padding: 20px 10px;
+  }
+
+  .counter-card h2 {
+    font-size: 30px;
+  }
+}
