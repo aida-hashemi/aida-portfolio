@@ -1,6 +1,6 @@
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
-import portfolio from "../assets/portfolio.jpg";
+import portfolio from "../assets/portfolio.png";
 import todo from "../assets/todo.jpg";
 import weather from "../assets/weather.jpg";
 
@@ -13,7 +13,7 @@ function Projects() {
       description: "A responsive portfolio website built with React.",
       technologies: ["React", "CSS", "Vite"],
       github: "https://github.com",
-      demo: "https://google.com",
+      demo: "https://aida-portfolio-wheat.vercel.app/",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ function Projects() {
       image: weather,
       description: "Weather forecast application using an API.",
       technologies: ["React", "JavaScript", "API"],
-      github: "https://github.com",
+      github: "https://github.com/aida-hashemi/aida-portfolio",
       demo: "https://google.com",
     },
     {
