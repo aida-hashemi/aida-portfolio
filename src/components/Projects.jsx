@@ -1,8 +1,8 @@
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
 import portfolio from "../assets/portfolio.png";
-import todo from "../assets/todo.jpg";
-import weather from "../assets/weather.jpg";
+import todo from "../assets/todo.png";
+import weather from "../assets/weather.png";
 
 function Projects() {
   const projects = [
@@ -12,7 +12,7 @@ function Projects() {
       image: portfolio,
       description: "A responsive portfolio website built with React.",
       technologies: ["React", "CSS", "Vite"],
-      github: "https://github.com",
+      github: " https://github.com/aida-hashemi/aida-portfolio",
       demo: "https://aida-portfolio-wheat.vercel.app/",
     },
     {
@@ -21,8 +21,8 @@ function Projects() {
       image: weather,
       description: "Weather forecast application using an API.",
       technologies: ["React", "JavaScript", "API"],
-      github: "https://github.com/aida-hashemi/aida-portfolio",
-      demo: "https://google.com",
+      github: "https://github.com/aida-hashemi/weather-app",
+      demo: "https://weather-app-nine-omega-76.vercel.app/",
     },
     {
       id: 3,
@@ -30,8 +30,8 @@ function Projects() {
       image: todo,
       description: "Task management application.",
       technologies: ["React", "CSS"],
-      github: "https://github.com",
-      demo: "https://google.com",
+      github: "https://github.com/aida-hashemi/todo-app",
+      demo: "https://todo-app-omega-three-41.vercel.app/",
     },
   ];
 
